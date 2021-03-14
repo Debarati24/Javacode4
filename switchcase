@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class Switchcase {
+ public static void main(String[] args) {
+	 System.out.println("Please choose a foreign language of your choice- ");
+	 System.out.println("1.French/t2.German/t3.Italian/t4.Spanish/t5.Japanese");
+	 Scanner s =  new Scanner(System.in);
+	 int n = s.nextInt();
+	 switch(n) {
+	 case 1: System.out.println("You choose FRENCH as the foreign language.");
+	         break;
+	 case 2: System.out.println("You choose GERMAN as the foreign language.");
+	         break;
+	 case 3: System.out.println("You choose ITALIAN as the foreign language.");
+	         break;
+	 case 4: System.out.println("You choose SPANISH as the foreign language.");
+	         break;
+	 case 5: System.out.println("You choose JAPANESE as the foreign language.");
+	         break;
+	 default: System.out.println("You choose wrong input. Please enter a valid input.");
+	 }
+ }
+}
